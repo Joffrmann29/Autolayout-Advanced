@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -26,24 +27,32 @@
                                     <constraint firstAttribute="height" constant="128" id="8sf-EX-0Y5"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0J2-up-Ego">
-                                <rect key="frame" x="39" y="201" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0J2-up-Ego">
+                                <rect key="frame" x="39" y="201" width="256" height="128"/>
                                 <color key="backgroundColor" red="1" green="0.019121999479999999" blue="0.20283647699999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="sxE-Kk-UB9"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MeH-Aw-Xie">
-                                <rect key="frame" x="321" y="201" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MeH-Aw-Xie">
+                                <rect key="frame" x="305" y="201" width="256" height="128"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="IPc-nH-3BV"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="52-01-01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tRd-UA-Yxl">
+                                <rect key="frame" x="150" y="426" width="300" height="154"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tRd-UA-Yxl" secondAttribute="height" multiplier="150:77" id="NX9-rN-4sj"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="tRd-UA-Yxl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="0.5" id="6TQ-pm-v3b"/>
                             <constraint firstItem="0J2-up-Ego" firstAttribute="leading" secondItem="Q39-r8-cqa" secondAttribute="leading" id="7PC-j4-VZQ"/>
+                            <constraint firstItem="tRd-UA-Yxl" firstAttribute="top" secondItem="0J2-up-Ego" secondAttribute="bottom" constant="97" id="8FG-nq-aJV"/>
                             <constraint firstItem="Q39-r8-cqa" firstAttribute="width" secondItem="0J2-up-Ego" secondAttribute="width" multiplier="2" constant="10" id="EC8-gY-AaE"/>
                             <constraint firstItem="MeH-Aw-Xie" firstAttribute="trailing" secondItem="Q39-r8-cqa" secondAttribute="trailing" id="J2X-v8-VU8"/>
                             <constraint firstItem="Q39-r8-cqa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="19" id="PWY-am-Lvx"/>
@@ -52,6 +61,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Q39-r8-cqa" secondAttribute="trailing" constant="19" id="dZN-0Y-tUx"/>
                             <constraint firstItem="Q39-r8-cqa" firstAttribute="width" secondItem="MeH-Aw-Xie" secondAttribute="width" multiplier="2" constant="10" id="jeM-78-a6J"/>
                             <constraint firstItem="MeH-Aw-Xie" firstAttribute="top" secondItem="Q39-r8-cqa" secondAttribute="bottom" constant="38" id="wDj-as-9dU"/>
+                            <constraint firstItem="tRd-UA-Yxl" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.5" id="x4p-BL-POI"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -60,4 +70,7 @@
             <point key="canvasLocation" x="245" y="319"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="52-01-01.jpg" width="1667" height="1667"/>
+    </resources>
 </document>

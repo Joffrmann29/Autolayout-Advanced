@@ -14,6 +14,8 @@
 		B4583FCE1C9A020E00FFB498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4583FCC1C9A020E00FFB498 /* LaunchScreen.storyboard */; };
 		B4583FD91C9A020E00FFB498 /* auto_layout_advanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4583FD81C9A020E00FFB498 /* auto_layout_advanceTests.swift */; };
 		B4583FE41C9A020E00FFB498 /* auto_layout_advanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4583FE31C9A020E00FFB498 /* auto_layout_advanceUITests.swift */; };
+		B45888B01C9A0D1700C7491F /* Startup-rocket-launch in Resources */ = {isa = PBXBuildFile; fileRef = B45888AF1C9A0D1700C7491F /* Startup-rocket-launch */; };
+		B45888B21C9A12AF00C7491F /* 52-01-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B45888B11C9A12AF00C7491F /* 52-01-01.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B4583FDF1C9A020E00FFB498 /* auto-layout-advanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "auto-layout-advanceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4583FE31C9A020E00FFB498 /* auto_layout_advanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auto_layout_advanceUITests.swift; sourceTree = "<group>"; };
 		B4583FE51C9A020E00FFB498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B45888AF1C9A0D1700C7491F /* Startup-rocket-launch */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Startup-rocket-launch"; sourceTree = "<group>"; };
+		B45888B11C9A12AF00C7491F /* 52-01-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "52-01-01.jpg"; path = "auto-layout-advance/Startup-rocket-launch/52-01-01.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		B4583FB71C9A020E00FFB498 = {
 			isa = PBXGroup;
 			children = (
+				B45888B11C9A12AF00C7491F /* 52-01-01.jpg */,
 				B4583FC21C9A020E00FFB498 /* auto-layout-advance */,
 				B4583FD71C9A020E00FFB498 /* auto-layout-advanceTests */,
 				B4583FE21C9A020E00FFB498 /* auto-layout-advanceUITests */,
@@ -100,6 +105,7 @@
 				B4583FC31C9A020E00FFB498 /* AppDelegate.swift */,
 				B4583FC51C9A020E00FFB498 /* ViewController.swift */,
 				B4583FC71C9A020E00FFB498 /* Main.storyboard */,
+				B45888AF1C9A0D1700C7491F /* Startup-rocket-launch */,
 				B4583FCA1C9A020E00FFB498 /* Assets.xcassets */,
 				B4583FCC1C9A020E00FFB498 /* LaunchScreen.storyboard */,
 				B4583FCF1C9A020E00FFB498 /* Info.plist */,
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					B4583FBF1C9A020E00FFB498 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = K4XCB84M6V;
 					};
 					B4583FD31C9A020E00FFB498 = {
 						CreatedOnToolsVersion = 7.2;
@@ -230,6 +237,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4583FCE1C9A020E00FFB498 /* LaunchScreen.storyboard in Resources */,
+				B45888B21C9A12AF00C7491F /* 52-01-01.jpg in Resources */,
+				B45888B01C9A0D1700C7491F /* Startup-rocket-launch in Resources */,
 				B4583FCB1C9A020E00FFB498 /* Assets.xcassets in Resources */,
 				B4583FC91C9A020E00FFB498 /* Main.storyboard in Resources */,
 			);
@@ -397,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "auto-layout-advance/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "clutchMobileApps.auto-layout-advance";
@@ -408,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "auto-layout-advance/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "clutchMobileApps.auto-layout-advance";
@@ -482,6 +493,7 @@
 				B4583FEA1C9A020E00FFB498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4583FEB1C9A020E00FFB498 /* Build configuration list for PBXNativeTarget "auto-layout-advanceTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +502,7 @@
 				B4583FED1C9A020E00FFB498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4583FEE1C9A020E00FFB498 /* Build configuration list for PBXNativeTarget "auto-layout-advanceUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +511,7 @@
 				B4583FF01C9A020E00FFB498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
